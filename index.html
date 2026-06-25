@@ -1,0 +1,339 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Lilky.wtf - elemental quiz</title>
+  <meta name="description" content="Lilky_60200 - Elemental Quiz">
+  <meta name="author" content="Lilky_60200">
+  <meta name="coder" content="Andreas Gajdosik">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Lilky.wtf - Elemental Quiz">
+  <meta property="og:description" content="Take an enlightening quiz and find out which elemental lilek are you.">
+  <meta property="og:image" content="https://lilky.wtf/img/obdelnik-rozvernych.jpg">
+  <meta property="og:url" content="https://lilky.wtf/secret">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  
+  <link rel="stylesheet" href="styles.css?v=1.3">
+  <script src="https://www.youtube.com/player_api"></script>
+</head>
+
+<body>
+  <div id="bg"></div>
+  <div id="counter">
+    <div id="time"></div>
+    <div id="info">we start at 18:15 CET</div>
+  </div>
+  
+<form action="" id="q1" onsubmit="return next(1)">
+  <label class="question">I am rather:</label>
+  <div class="answers">
+    <label class="radinput">
+      <input class="radold" type="radio" value="A" name="q" required>
+      <span class="radnew"></span>
+      <span>early bird</span>
+    </label>
+
+    <label class="radinput">
+      <input class="radold" type="radio" value="E" name="q">
+      <span class="radnew"></span>
+      night owl
+    </label>
+
+    <label class="radinput">
+      <input class="radold" type="radio" value="W" name="q">
+      <span class="radnew"></span>
+      early owl
+    </label>
+
+    <label class="radinput">
+      <input class="radold" type="radio" value="F" name="q">
+      <span class="radnew"></span>
+      night bird
+    </label>
+  </div>
+
+  <div class="subinput">
+    <label>
+      <input type="submit" value="submit">
+      <span class="subnew"></span>
+    </label>
+  </div>
+</form>
+
+
+<form action="" id="q2" onsubmit="return next(2)">
+  <label class="question">After lunch you usually crave for:</label>
+  <div class="answers">
+    <label class="radinput">
+      <input class="radold" type="radio" value="E" name="q" required>
+      <span class="radnew"></span>
+      another lunch
+    </label>
+
+    <label class="radinput">
+      <input class="radold" type="radio" value="W" name="q">
+      <span class="radnew"></span>
+      dessert
+    </label>
+
+    <label class="radinput">
+      <input class="radold" type="radio" value="A" name="q">
+      <span class="radnew"></span>
+      joint
+    </label>
+
+    <label class="radinput">
+      <input class="radold" type="radio" value="F" name="q">
+      <span class="radnew"></span>
+      a nap
+    </label>
+  </div>
+
+  <div class="subinput">
+    <label>
+      <input type="submit" value="submit">
+      <span class="subnew"></span>
+    </label>
+  </div>
+</form>
+
+
+<form action="" id="q3" onsubmit="return next(3)">
+  <label class="question">Do you prefer?</label>
+  <div class="answers">
+    <label class="radinput">
+      <input class="radold" type="radio" value="A" name="q" required>
+      <span class="radnew"></span>
+      let it go
+    </label>
+
+    <label class="radinput">
+      <input class="radold" type="radio" value="F" name="q">
+      <span class="radnew"></span>
+      let it burn
+    </label>
+
+    <label class="radinput">
+      <input class="radold" type="radio" value="W" name="q">
+      <span class="radnew"></span>
+      let it freeze
+    </label>
+
+    <label class="radinput">
+      <input class="radold" type="radio" value="E" name="q">
+      <span class="radnew"></span>
+      let it bury
+    </label>
+  </div>
+
+  <div class="subinput">
+    <label>
+      <input type="submit" value="submit">
+      <span class="subnew"></span>
+    </label>
+  </div>
+</form>
+
+
+<form action="" id="q4" onsubmit="return next(4)">
+  <label class="question">Do you trust in/that:</label>
+  <div class="answers">
+    <label class="radinput">
+      <input class="radold" type="radio" value="W" name="q" required>
+      <span class="radnew"></span>
+      Reptilian
+    </label>
+
+    <label class="radinput">
+      <input class="radold" type="radio" value="E" name="q">
+      <span class="radnew"></span>
+      Apollo was fake
+    </label>
+
+    <label class="radinput">
+      <input class="radold" type="radio" value="F" name="q">
+      <span class="radnew"></span>
+      Chemtrails
+    </label>
+
+    <label class="radinput">
+      <input class="radold" type="radio" value="A" name="q">
+      <span class="radnew"></span>
+      Epstein is still alive
+    </label>
+  </div>
+
+  <div class="subinput">
+    <label>
+      <input type="submit" value="submit">
+      <span class="subnew"></span>
+    </label>
+  </div>
+</form>
+
+<form action="" id="q5" onsubmit="return next(5)">
+  <label class="question">What would you choose to eat right now?</label>
+  <div class="answers">
+    <label class="radinput">
+      <input class="radold" type="radio" value="F" name="q" required>
+      <span class="radnew"></span>
+      хачапури
+    </label>
+
+    <label class="radinput">
+      <input class="radold" type="radio" value="W" name="q">
+      <span class="radnew"></span>
+      бурек
+    </label>
+
+    <label class="radinput">
+      <input class="radold" type="radio" value="A" name="q">
+      <span class="radnew"></span>
+      сирок
+    </label>
+
+    <label class="radinput">
+      <input class="radold" type="radio" value="E" name="q">
+      <span class="radnew"></span>
+      пельмени
+    </label>
+  </div>
+
+  <div class="subinput">
+    <label>
+      <input type="submit" value="submit">
+      <span class="subnew"></span>
+    </label>
+  </div>
+</form>
+
+
+<form action="" id="q6" onsubmit="return next(6)">
+  <label class="question">How do you treat indigestion?</label>
+  <div class="answers">
+    <label class="radinput">
+      <input class="radold" type="radio" value="W" name="q" required>
+      <span class="radnew"></span>
+      acid
+    </label>
+
+    <label class="radinput">
+      <input class="radold" type="radio" value="A" name="q">
+      <span class="radnew"></span>
+      banana
+    </label>
+
+    <label class="radinput">
+      <input class="radold" type="radio" value="F" name="q">
+      <span class="radnew"></span>
+      fennel
+    </label>
+
+    <label class="radinput">
+      <input class="radold" type="radio" value="E" name="q">
+      <span class="radnew"></span>
+      active/black coal
+    </label>
+  </div>
+
+  <div class="subinput">
+    <label>
+      <input type="submit" value="submit">
+      <span class="subnew"></span>
+    </label>
+  </div>
+</form>
+
+
+<form action="" id="q7" onsubmit="return next(7)">
+  <label class="question">What is your fav drink for hangover?</label>
+  <div class="answers">
+    <label class="radinput">
+      <input class="radold" type="radio" value="E" name="q" required>
+      <span class="radnew"></span>
+      pickles water
+    </label>
+
+    <label class="radinput">
+      <input class="radold" type="radio" value="W" name="q">
+      <span class="radnew"></span>
+      coca-cola
+    </label>
+
+    <label class="radinput">
+      <input class="radold" type="radio" value="F" name="q">
+      <span class="radnew"></span>
+      isis cola
+    </label>
+
+    <label class="radinput">
+      <input class="radold" type="radio" value="A" name="q">
+      <span class="radnew"></span>
+      fanta
+    </label>
+  </div>
+
+  <div class="subinput">
+    <label>
+      <input type="submit" value="submit">
+      <span class="subnew"></span>
+    </label>
+  </div>
+</form>
+
+
+<form action="" id="q8" onsubmit="return calculate()">
+  <label class="question">I am leaving house with:</label>
+  <div class="answers">
+    <label class="radinput">
+      <input class="radold" type="radio" value="EF" name="q" required>
+      <span class="radnew"></span>
+      right foot
+    </label>
+
+    <label class="radinput">
+      <input class="radold" type="radio" value="AW" name="q">
+      <span class="radnew"></span>
+      left foot
+    </label>
+  </div>
+
+  <div class="subinput">
+    <label>
+      <input type="submit" value="submit">
+      <span class="subnew"></span>
+    </label>
+  </div>
+</form>
+  
+  <div id="elementalAnimation">
+    <img src="img/elemental-lilky.gif" alt="Elemental lilky (animated)"/>
+  </div>
+  
+  <div id="video"></div>
+
+  <div id="elementsMenu">
+    <div>Still not enough? Became another element!</div>
+    <div id="elementalIcons">
+      <img src="img/voda.png" onclick='showVideo("W")'>
+      <img src="img/zeme.png" onclick='showVideo("E")'>
+      <img src="img/vzduch.png" onclick='showVideo("A")'>
+      <img src="img/ohen.png" onclick='showVideo("F")'>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
